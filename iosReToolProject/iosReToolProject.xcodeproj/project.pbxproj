@@ -15,6 +15,13 @@
 		F69ACFE022D9AC1100664F86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69ACFDF22D9AC1100664F86 /* main.m */; };
 		F69ACFEA22D9AC1100664F86 /* iosReToolProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69ACFE922D9AC1100664F86 /* iosReToolProjectTests.m */; };
 		F69ACFF522D9AC1100664F86 /* iosReToolProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F69ACFF422D9AC1100664F86 /* iosReToolProjectUITests.m */; };
+		F69AD01422D9ACCC00664F86 /* TwAFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F69AD00622D9ACCC00664F86 /* TwAFURLRequestSerialization.m */; };
+		F69AD01522D9ACCC00664F86 /* TwAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F69AD00722D9ACCC00664F86 /* TwAFHTTPSessionManager.m */; };
+		F69AD01622D9ACCC00664F86 /* TwAFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F69AD00822D9ACCC00664F86 /* TwAFNetworkReachabilityManager.m */; };
+		F69AD01722D9ACCC00664F86 /* TwAFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F69AD00A22D9ACCC00664F86 /* TwAFSecurityPolicy.m */; };
+		F69AD01822D9ACCC00664F86 /* TwAFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F69AD00C22D9ACCC00664F86 /* TwAFURLSessionManager.m */; };
+		F69AD01922D9ACCC00664F86 /* TwAFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F69AD00E22D9ACCC00664F86 /* TwAFURLResponseSerialization.m */; };
+		F69AD01C22D9AD0D00664F86 /* TweakHttpsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F69AD01B22D9AD0D00664F86 /* TweakHttpsManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,22 @@
 		F69ACFF022D9AC1100664F86 /* iosReToolProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosReToolProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69ACFF422D9AC1100664F86 /* iosReToolProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosReToolProjectUITests.m; sourceTree = "<group>"; };
 		F69ACFF622D9AC1100664F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69AD00622D9ACCC00664F86 /* TwAFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwAFURLRequestSerialization.m; sourceTree = "<group>"; };
+		F69AD00722D9ACCC00664F86 /* TwAFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwAFHTTPSessionManager.m; sourceTree = "<group>"; };
+		F69AD00822D9ACCC00664F86 /* TwAFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwAFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		F69AD00922D9ACCC00664F86 /* TwAFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwAFURLResponseSerialization.h; sourceTree = "<group>"; };
+		F69AD00A22D9ACCC00664F86 /* TwAFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwAFSecurityPolicy.m; sourceTree = "<group>"; };
+		F69AD00B22D9ACCC00664F86 /* TwAFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwAFURLSessionManager.h; sourceTree = "<group>"; };
+		F69AD00C22D9ACCC00664F86 /* TwAFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwAFURLSessionManager.m; sourceTree = "<group>"; };
+		F69AD00D22D9ACCC00664F86 /* TwAFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwAFCompatibilityMacros.h; sourceTree = "<group>"; };
+		F69AD00E22D9ACCC00664F86 /* TwAFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwAFURLResponseSerialization.m; sourceTree = "<group>"; };
+		F69AD00F22D9ACCC00664F86 /* TwAFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwAFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		F69AD01022D9ACCC00664F86 /* TwAFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwAFURLRequestSerialization.h; sourceTree = "<group>"; };
+		F69AD01122D9ACCC00664F86 /* TwAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwAFNetworking.h; sourceTree = "<group>"; };
+		F69AD01222D9ACCC00664F86 /* TwAFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwAFSecurityPolicy.h; sourceTree = "<group>"; };
+		F69AD01322D9ACCC00664F86 /* TwAFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwAFHTTPSessionManager.h; sourceTree = "<group>"; };
+		F69AD01A22D9AD0D00664F86 /* TweakHttpsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweakHttpsManager.h; sourceTree = "<group>"; };
+		F69AD01B22D9AD0D00664F86 /* TweakHttpsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweakHttpsManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +124,8 @@
 		F69ACFCF22D9AC1100664F86 /* iosReToolProject */ = {
 			isa = PBXGroup;
 			children = (
-				F69ACFD022D9AC1100664F86 /* AppDelegate.h */,
-				F69ACFD122D9AC1100664F86 /* AppDelegate.m */,
-				F69ACFD322D9AC1100664F86 /* ViewController.h */,
-				F69ACFD422D9AC1100664F86 /* ViewController.m */,
-				F69ACFD622D9AC1100664F86 /* Main.storyboard */,
-				F69ACFD922D9AC1100664F86 /* Assets.xcassets */,
-				F69ACFDB22D9AC1100664F86 /* LaunchScreen.storyboard */,
-				F69ACFDE22D9AC1100664F86 /* Info.plist */,
-				F69ACFDF22D9AC1100664F86 /* main.m */,
+				F69AD00322D9AC9100664F86 /* iOSRe */,
+				F69AD00222D9AC6C00664F86 /* Other */,
 			);
 			path = iosReToolProject;
 			sourceTree = "<group>";
@@ -130,6 +146,61 @@
 				F69ACFF622D9AC1100664F86 /* Info.plist */,
 			);
 			path = iosReToolProjectUITests;
+			sourceTree = "<group>";
+		};
+		F69AD00222D9AC6C00664F86 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F69ACFD022D9AC1100664F86 /* AppDelegate.h */,
+				F69ACFD122D9AC1100664F86 /* AppDelegate.m */,
+				F69ACFD322D9AC1100664F86 /* ViewController.h */,
+				F69ACFD422D9AC1100664F86 /* ViewController.m */,
+				F69ACFD622D9AC1100664F86 /* Main.storyboard */,
+				F69ACFD922D9AC1100664F86 /* Assets.xcassets */,
+				F69ACFDB22D9AC1100664F86 /* LaunchScreen.storyboard */,
+				F69ACFDE22D9AC1100664F86 /* Info.plist */,
+				F69ACFDF22D9AC1100664F86 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F69AD00322D9AC9100664F86 /* iOSRe */ = {
+			isa = PBXGroup;
+			children = (
+				F69AD00422D9AC9D00664F86 /* Net */,
+			);
+			path = iOSRe;
+			sourceTree = "<group>";
+		};
+		F69AD00422D9AC9D00664F86 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				F69AD01A22D9AD0D00664F86 /* TweakHttpsManager.h */,
+				F69AD01B22D9AD0D00664F86 /* TweakHttpsManager.m */,
+				F69AD00522D9ACAD00664F86 /* AF */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		F69AD00522D9ACAD00664F86 /* AF */ = {
+			isa = PBXGroup;
+			children = (
+				F69AD00D22D9ACCC00664F86 /* TwAFCompatibilityMacros.h */,
+				F69AD01322D9ACCC00664F86 /* TwAFHTTPSessionManager.h */,
+				F69AD00722D9ACCC00664F86 /* TwAFHTTPSessionManager.m */,
+				F69AD01122D9ACCC00664F86 /* TwAFNetworking.h */,
+				F69AD00F22D9ACCC00664F86 /* TwAFNetworkReachabilityManager.h */,
+				F69AD00822D9ACCC00664F86 /* TwAFNetworkReachabilityManager.m */,
+				F69AD01222D9ACCC00664F86 /* TwAFSecurityPolicy.h */,
+				F69AD00A22D9ACCC00664F86 /* TwAFSecurityPolicy.m */,
+				F69AD01022D9ACCC00664F86 /* TwAFURLRequestSerialization.h */,
+				F69AD00622D9ACCC00664F86 /* TwAFURLRequestSerialization.m */,
+				F69AD00922D9ACCC00664F86 /* TwAFURLResponseSerialization.h */,
+				F69AD00E22D9ACCC00664F86 /* TwAFURLResponseSerialization.m */,
+				F69AD00B22D9ACCC00664F86 /* TwAFURLSessionManager.h */,
+				F69AD00C22D9ACCC00664F86 /* TwAFURLSessionManager.m */,
+			);
+			path = AF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +333,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69AD01522D9ACCC00664F86 /* TwAFHTTPSessionManager.m in Sources */,
+				F69AD01422D9ACCC00664F86 /* TwAFURLRequestSerialization.m in Sources */,
+				F69AD01922D9ACCC00664F86 /* TwAFURLResponseSerialization.m in Sources */,
 				F69ACFD522D9AC1100664F86 /* ViewController.m in Sources */,
 				F69ACFE022D9AC1100664F86 /* main.m in Sources */,
+				F69AD01622D9ACCC00664F86 /* TwAFNetworkReachabilityManager.m in Sources */,
+				F69AD01C22D9AD0D00664F86 /* TweakHttpsManager.m in Sources */,
+				F69AD01722D9ACCC00664F86 /* TwAFSecurityPolicy.m in Sources */,
+				F69AD01822D9ACCC00664F86 /* TwAFURLSessionManager.m in Sources */,
 				F69ACFD222D9AC1100664F86 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +515,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = iosReToolProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iosReToolProject/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +534,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = iosReToolProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iosReToolProject/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
